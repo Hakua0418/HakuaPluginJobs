@@ -1,0 +1,23 @@
+main: hakuaserver.jp.hakuaplugin.HakuaPlugin
+name: HakuaPlugin
+version: 1.0.0
+API-Version: 1.21.5
+
+prefix: hakua
+
+commands:
+    hakua:
+        description: Hakua plugin command
+        usage: /hakua <subcommand>
+        permission: hakua.command
+
+permissions:
+    hakua.command:
+        description: Allows the use of the /hakua command
+        default: true
+    hakua.admin:
+        description: Allows access to admin commands
+        default: op
+    hakua.user:
+        description: Allows access to user commands
+        default: true
